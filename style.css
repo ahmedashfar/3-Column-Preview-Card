@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+    width: 950px !important;
+    margin: 200px auto;
+}
+
+.row {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.vehicle {
+    padding: 50px !important;
+    height: 475px;
+}
+
+.vehicle h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 25px 0px;
+}
+
+.vehicle p {
+   color: hsla(0, 0%, 100%, 0.75);
+   font-family: 'Lexend Deca', sans-serif;
+   font-size: 15px;
+   padding-bottom: 60px;
+}
+
+.vehicle-btn {
+    background: hsl(0, 0%, 95%) !important;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 10px 25px !important;
+}
+
+.vehicle-btn:hover {
+    background: transparent !important;
+    border: 1px solid  hsl(0, 0%, 95%);
+    color:  hsl(0, 0%, 95%) !important;
+}
+
+.sedan button {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv button {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: unset !important;
+        margin: unset !important;
+    }
+  }
